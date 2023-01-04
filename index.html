@@ -10,9 +10,9 @@
           <p class="home-score" id="home-score">0</p>
         </div>
         <div class="btn-container">
-          <button class="btn" id="btn-home-1">+1</button>
-          <button class="btn" id="btn-home-2">+2</button>
-          <button class="btn" id="btn-home-3">+3</button>
+          <button class="btn" onclick="addToHome(1)" id="btn-home-1">+1</button>
+          <button class="btn" onclick="addToHome(2)" id="btn-home-2">+2</button>
+          <button class="btn" onclick="addToHome(3)" id="btn-home-3">+3</button>
         </div>
       </div>
       <div>
@@ -21,15 +21,21 @@
           <p class="guest-score" id="guest-score">0</p>
         </div>
         <div class="btn-container">
-          <button class="btn" id="btn-guest-1">+1</button>
-          <button class="btn" id="btn-guest-2">+2</button>
-          <button class="btn" id="btn-guest-3">+3</button>
+          <button class="btn" onclick="addToGuest(1)" id="btn-guest-1">
+            +1
+          </button>
+          <button class="btn" onclick="addToGuest(2)" id="btn-guest-2">
+            +2
+          </button>
+          <button class="btn" onclick="addToGuest(3)" id="btn-guest-3">
+            +3
+          </button>
         </div>
       </div>
     </div>
     <div>
       <button class="new-game-btn" id="new-game-btn">New Game</button>
     </div>
-    <script src="index.js"></script>
+    <script src="indexcodereviewvs.js"></script>
   </body>
 </html>
